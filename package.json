@@ -1,14 +1,6 @@
 {
   "name": "portfolio",
   "homepage": "https://s4yd.github.io/sbdkhl",
-"scripts": {
-  "dev": "vite",
-  "build": "tsc -b && vite build && node scripts/generate-sitemap.js",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -20,7 +12,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build && node scripts/generate-sitemap.js",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
@@ -54,3 +48,4 @@
     "vite-plugin-image-optimizer": "^2.0.3"
   }
 }
+
