@@ -8,15 +8,15 @@
     "node": ">=18.0.0",
     "npm": ">=8.0.0"
   },
-"scripts": {
-  "dev": "vite",
-  "build": "tsc -b && vite build && node scripts/generate-sitemap.js",
-  "build:deploy": "vite build && node scripts/generate-sitemap.js",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "predeploy": "npm run build:deploy",
-  "deploy": "gh-pages -d dist"
-}
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && node scripts/generate-sitemap.js",
+    "build:deploy": "vite build && node scripts/generate-sitemap.js",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build:deploy",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.23.6",
