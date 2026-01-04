@@ -1,0 +1,3 @@
+Sitemap: https://dhruba-datta.netlify.app/sitemap.xml
+User-agent: *
+Allow: /
