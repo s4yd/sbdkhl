@@ -51,7 +51,7 @@ import { GrStorage } from 'react-icons/gr';
 
 export const projects: Project[] = [
   {
-  id: 'brevo-email-marketing-n8n',
+  id: 'sbdkhl',
     title: 'ai199',
     description:
       'aid199',
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     category: 'automation',
   },
   {
-  id: 'content-idea-generator-n8n',
+  id: 'sbdkhl',
     title: 'ai299',
     description:
       'aid299',
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     category: 'automation',
   },
   {
-    id: 'intelligent-product-order-n8n',
+    id: 'sbdkhl',
     title: 'ai399',
     description:
       'aid399',
@@ -115,7 +115,7 @@ export const projects: Project[] = [
   },
 
   {
-  id: 'photobooth',
+  id: 'sbdkhl',
     title: 'ai499',
     description:
       'aid499',
@@ -136,7 +136,7 @@ export const projects: Project[] = [
     category: 'development',
   },
   {
-  id: 'ab-pharmacy-expo',
+  id: 'sbdkhl',
     title: 'ai599',
     description:
       'aid599',
@@ -157,7 +157,7 @@ export const projects: Project[] = [
     category: 'app',
   },
   {
-  id: 'cryptoverse',
+  id: 'sbdkhl',
     title: 'ai699',
     description:
       'aid699',
@@ -178,7 +178,7 @@ export const projects: Project[] = [
     category: 'development',
   },
   {
-  id: 'portfolio-v2',
+  id: 'sbdkhl',
     title: 'ai799',
     description:
       'aid799',
@@ -199,7 +199,7 @@ export const projects: Project[] = [
     category: 'development',
   },
   {
-  id: 'ab-pharmacy-orders',
+  id: 'sbdkhl',
     title: 'ai899',
     description:
       'aid899',
@@ -219,7 +219,7 @@ export const projects: Project[] = [
   },
 
   {
-  id: 'portfolio-v1',
+  id: 'sbdkhl',
     title: 'ai999',
     description:
       'aid999',
@@ -242,7 +242,7 @@ export const projects: Project[] = [
 
   // Dice Job Search (n8n) automation project
   {
-  id: 'dice-job-search-n8n',
+  id: 'sbdkhl',
     title: 'ai1099',
     description:
       'aid1099',
@@ -264,7 +264,7 @@ export const projects: Project[] = [
   },
 
   {
-  id: 'kingsley-group',
+  id: 'sbdkhl',
     title: 'ai1199',
     description:
       'aid1199',
@@ -287,7 +287,7 @@ export const projects: Project[] = [
     category: 'development',
   },
   {
-  id: 'linkedin-job-search-n8n',
+  id: 'sbdkhl',
     title: 'ai1299',
     description:
       'aid1299',
@@ -308,7 +308,7 @@ export const projects: Project[] = [
     category: 'automation',
   },
   {
-  id: 'kfc-clone',
+  id: 'sbdkhl',
     title: 'ai1399',
     description:
       'aid1399',
@@ -330,7 +330,7 @@ export const projects: Project[] = [
     category: 'development',
   },
   {
-  id: 'easycooking',
+  id: 'sbdkhl',
     title: 'ai1499',
     description:
       'aid1499',
@@ -350,7 +350,7 @@ export const projects: Project[] = [
     category: 'development',
   },
   {
-  id: 'food-ordering-system',
+  id: 'sbdkhl',
     title: 'ai1599',
     description:
       'aid1599',

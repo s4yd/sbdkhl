@@ -9,22 +9,22 @@ const ProjectsPage = lazy(() => import("./pages/ProjectsPage"));
 const ContactPage = lazy(() => import("./pages/ContactPage"));
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage"));
 
-const KfcClonePage = lazy(() => import("./pages/projects/KfcClonePage"));
-const PortfolioV1Page = lazy(() => import("./pages/projects/PortfolioV1Page"));
-const PortfolioV2Page = lazy(() => import("./pages/projects/PortfolioV2Page"));
-const ABPharmacyExpoPage = lazy(() => import("./pages/projects/ABPharmacyExpoPage"));
-const ABPharmacyOrdersPage = lazy(() => import("./pages/projects/ABPharmacyOrdersPage"));
-const PhotoBoothPage = lazy(() => import("./pages/projects/PhotoBoothPage"));
-const CryptoVersePage = lazy(() => import("./pages/projects/CryptoVersePage"));
-const ContentIdeaGeneratorPage = lazy(() => import("./pages/projects/ContentIdeaGeneratorPage"));
-const LinkedInJobSearchPage = lazy(() => import("./pages/projects/LinkedInJobSearchPage"));
-const EasyCookingPage = lazy(() => import("./pages/projects/EasyCookingPage"));
-const FoodOrderingSystemPage = lazy(() => import("./pages/projects/FoodOrderingSystemPage"));
-const KingsleyGroupPage = lazy(() => import("./pages/projects/KingsleyGroupPage"));
-const DiceJobSearchPage = lazy(() => import("./pages/projects/DiceJobSearchPage"));
-const BrevoEmailMarketingPage = lazy(() => import("./pages/projects/BrevoEmailMarketingPage"));
+const KfcClonePage = lazy(() => import("./pages/NotFoundPage"));
+const PortfolioV1Page = lazy(() => import("./pages/NotFoundPage"));
+const PortfolioV2Page = lazy(() => import("./pages/NotFoundPage"));
+const ABPharmacyExpoPage = lazy(() => import("./pages/NotFoundPage"));
+const ABPharmacyOrdersPage = lazy(() => import("./pages/NotFoundPage"));
+const PhotoBoothPage = lazy(() => import("./pages/NotFoundPage"));
+const CryptoVersePage = lazy(() => import("./pages/NotFoundPage"));
+const ContentIdeaGeneratorPage = lazy(() => import("./pages/NotFoundPage"));
+const LinkedInJobSearchPage = lazy(() => import("./pages/NotFoundPage"));
+const EasyCookingPage = lazy(() => import("./pages/NotFoundPage"));
+const FoodOrderingSystemPage = lazy(() => import("./pages/NotFoundPage"));
+const KingsleyGroupPage = lazy(() => import("./pages/NotFoundPage"));
+const DiceJobSearchPage = lazy(() => import("./pages/NotFoundPage"));
+const BrevoEmailMarketingPage = lazy(() => import("./pages/NotFoundPage"));
 const IntelligentProductOrderPage = lazy(
-  () => import("./pages/projects/IntelligentProductOrder")
+  () => import("./pages/NotFoundPage")
 );
 
 /* ---------------- Scroll To Top ---------------- */
