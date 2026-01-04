@@ -7,23 +7,17 @@ const commitYear = execSync("git log -1 --format=%cd --date=format:%Y")
   .toString()
   .trim();
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: "/", // 👈 REQUIRED for GitHub Pages
   define: {
     __LAST_UPDATE_YEAR__: JSON.stringify(commitYear),
   },
   plugins: [
     react(),
     ViteImageOptimizer({
-      png: {
-        quality: 80,
-      },
-      jpeg: {
-        quality: 80,
-      },
-      jpg: {
-        quality: 80,
-      },
+      png: { quality: 80 },
+      jpeg: { quality: 80 },
+      jpg: { quality: 80 },
       svg: {
         multipass: true,
         plugins: [
@@ -48,3 +42,4 @@ export default defineConfig({
     }),
   ],
 });
+
