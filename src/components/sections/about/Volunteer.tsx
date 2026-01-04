@@ -19,30 +19,30 @@ const Volunteer = ({ isDark = false }: VolunteerProps) => {
   const experiences: VolunteerExperience[] = [
     {
       id: 1,
-      organization: "Dhrubotara Youth Development Foundation",
-      position: "Youth Development Volunteer",
-      duration: "SEP 2021 - AUG 2022",
-      location: "New Delhi, India",
+      organization: "m177",
+      position: "m1p77",
+      duration: "m1d77",
+      location: "m1l77",
       type: "Leadership",
-      description: "DYDF-INDIA combines student power of Bangladesh and India and works on skill development and social issues of both countries."
+      description: "madd77"
     },
     {
       id: 2,
-      organization: "Private Tutoring",
-      position: "Academic Mentor & Tutor",
-      duration: "DEC 2018 - JUL 2019",
-      location: "Dhaka, Bangladesh",
-      type: "Education",
-      description: "While applying for higher education, I assisted high school students of 10th and 12th grade in subjects including Maths, Physics, and ICT."
+      organization: "m277",
+      position: "m2p77",
+      duration: "m2d77",
+      location: "m2l77",
+      type: "m2t77",
+      description: "m2dd77"
     },
     {
       id: 3,
-      organization: "Help Bangladesh",
-      position: "Co-founder",
-      duration: "MAY 2017 - JUL 2019",
-      location: "Dhaka, Bangladesh",
-      type: "Social Impact",
-      description: "Co-founded a group aimed to help and support street children, providing basic needs such as food & education for over hundred children with a team of more than fifty members."
+      organization: "m377",
+      position: "m3p77",
+      duration: "m3d77",
+      location: "m3l77",
+      type: "m3t77",
+      description: "m3dd77"
     }
   ];
 
@@ -110,10 +110,10 @@ const Volunteer = ({ isDark = false }: VolunteerProps) => {
             viewport={{ once: true }}
           >
             <span className="uppercase tracking-[0.2em] text-[10px] sm:text-[11px] text-slate-500 dark:text-slate-400">
-              Community Service
+              n77
             </span>
             <h2 className="mt-2 sm:mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white">
-              Volunteer Experience
+              m77
             </h2>
             
           </motion.div>
@@ -252,7 +252,7 @@ const Volunteer = ({ isDark = false }: VolunteerProps) => {
                           <div className={`text-xs font-medium ${
                             isDark ? 'text-gray-400' : 'text-gray-600'
                           } mb-1`}>
-                            Impact
+                            w77
                           </div>
                           {/* Row 2 - Description */}
                           <p className={`text-sm leading-relaxed ${

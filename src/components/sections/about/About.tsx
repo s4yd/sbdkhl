@@ -16,9 +16,9 @@ const About = ({ }: AboutProps) => {
   // --- Slides ---
   const slides: Slide[] = useMemo(
     () => [
-      { src: '/images/me1.jpg', caption: 'I Code', alt: 'Building things' },
-      { src: '/images/me2.jpg', caption: 'I Explore', alt: 'Creative work' },
-      { src: '/images/me.jpg',  caption: 'I Learn', alt: 'Learning & tinkering' },
+      { src: '/images/m1.jpg', caption: 'i177', alt: 'ia177' },
+      { src: '/images/me3.jpg', caption: 'i277', alt: 'ib277' },
+      { src: '/images/m.jpg',  caption: 'i377', alt: 'ic377' },
     ],
     []
   );
@@ -120,7 +120,7 @@ const About = ({ }: AboutProps) => {
               transition={{ duration: 0.45 }}
               className="text-[10px] sm:text-[11px] tracking-[0.22em] font-semibold uppercase text-gray-500 dark:text-gray-400"
             >
-              More about me
+              m77
             </motion.p>
 
             <motion.h2
@@ -129,7 +129,7 @@ const About = ({ }: AboutProps) => {
               transition={{ duration: 0.55 }}
               className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-gray-900 dark:text-white"
             >
-              I’m <span className="text-blue-600 dark:text-blue-400">Dhruba</span>
+              Sundarban <span className="text-blue-600 dark:text-blue-400">Decorator</span>
             </motion.h2>
 
             <motion.div
@@ -139,12 +139,12 @@ const About = ({ }: AboutProps) => {
               className="space-y-4 sm:space-y-5 text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed max-w-2xl"
             >
               <p>
-                Proactive Software Engineer passionate about advancing AI through innovative solutions. Serving as R&D Lead at SEG, specializing in n8n automations to simplify workflows. Skilled in solving complex problems with clean, efficient code, with expertise in AI Automation and Full-Stack Development.
+                d77
               </p>
               <p>
-                My creativity finds an outlet in photography and travel. This blend of analytical and creative thinking fuels my interest in AI & ML research, driving me to contribute to innovative breakthroughs in these fields.
+                D77
               </p>
-              <p>Eager to innovate, inspire & make a meaningful impact everyday.</p>
+              <p>dd77</p>
             </motion.div>
 
             {/* CTAs */}

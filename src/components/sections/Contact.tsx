@@ -23,27 +23,27 @@ type ErrorType = Partial<FormType>;
 const socialLinks = [
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/dhruba-datta/",
+    url: "https://www.linkedin.com/c",
     icon: <FaLinkedinIn className="w-5 h-5" />,
   },
   {
     name: "Facebook",
-    url: "https://www.facebook.com/dhruba.datta.anjan",
+    url: "https://www.facebook.com/c",
     icon: <FaFacebookF className="w-5 h-5" />,
   },
   {
     name: "Instagram",
-    url: "https://www.instagram.com/dhrubz_/",
+    url: "https://www.instagram.com/c",
     icon: <FaInstagram className="w-5 h-5" />,
   },
   {
     name: "Telegram",
-    url: "https://t.me/dhruba_datta_anjan",
+    url: "https://t.me/c",
     icon: <FaTelegramPlane className="w-5 h-5" />,
   },
   {
     name: "YouTube",
-    url: "https://www.youtube.com/DhrubaDattaAnjan",
+    url: "https://www.youtube.com/c",
     icon: <FaYoutube className="w-5 h-5" />,
   },
 ];
@@ -308,7 +308,7 @@ const Contact: React.FC = () => {
 
             <img
               src="/images/Headshot.png"
-              alt="Dhruba Datta"
+              alt="SBDKHL"
               className="relative z-10 w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-32 lg:h-32 rounded-full object-cover shadow-2xl"
               draggable={false}
               loading="lazy"
@@ -351,26 +351,25 @@ const Contact: React.FC = () => {
 
           {/* ---- ELEMENTS UNDER THE IMAGE ---- */}
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-gray-100">
-            Dhruba{" "}
-            <span className="text-blue-600 dark:text-blue-400">Datta</span>
+            Sundarban{" "}
+            <span className="text-blue-600 dark:text-blue-400">Decorator</span>
           </h1>
 
           <div className="flex items-center gap-1.5 lg:gap-2 bg-green-100/80 dark:bg-green-900/40 rounded-full px-3 lg:px-4 py-1 w-fit mt-1">
             <span className="w-2 lg:w-2.5 h-2 lg:h-2.5 rounded-full bg-green-500 animate-pulse"></span>
             <span className="text-green-700 dark:text-green-300 font-medium text-xs lg:text-sm">
-              Open for Collaboration
+              j44
             </span>
           </div>
 
           <div className="text-blue-600 dark:text-blue-400 font-medium text-base sm:text-lg lg:text-xl mt-2">
-            Bringing Ideas to Life - Let&apos;s build together
+            T44
           </div>
 
           <p className="text-gray-600 dark:text-gray-300 max-w-lg mb-3 text-sm sm:text-base lg:text-lg leading-relaxed mt-2">
-            Got an idea, a question, or just want to chat?
+            d44
             <br />
-            Connect on social media for updates, or use the form for detailed
-            inquiries.
+            D44
           </p>
 
           <div className="flex gap-3 lg:gap-4 mb-2 justify-center lg:justify-start">

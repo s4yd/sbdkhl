@@ -86,7 +86,7 @@ const Photography = () => {
               Photography
             </span>
             <h2 className="mt-2 sm:mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white">
-              Travel Stories
+              Event Photos
             </h2>
           </motion.div>
         </div>
@@ -154,7 +154,7 @@ const Photography = () => {
             transition={{ duration: 0.6, ease: 'easeOut', delay: 0.3 }}
           >
             <a
-              href="https://www.instagram.com/dhrubz_/"
+              href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 sm:gap-3 px-6 sm:px-8 py-3 sm:py-4 text-xs sm:text-base font-semibold rounded-2xl border border-blue-200/80 dark:border-white/[0.08] bg-blue-50/60 dark:bg-slate-950/90 backdrop-blur-md text-slate-900 dark:text-white hover:shadow-xl hover:shadow-blue-500/[0.08] dark:hover:shadow-sky-500/[0.05] transition-all duration-500 hover:border-blue-300/70 dark:hover:border-sky-400/20 hover:-translate-y-1 group min-h-[48px] sm:min-h-[56px] focus-override"

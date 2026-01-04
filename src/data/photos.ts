@@ -10,44 +10,44 @@ export interface PhotoData {
 export const photos: PhotoData[] = [
   {
     id: '1',
-    image: '/images/photography/01.webp',
-    location: 'Agra, India',
-    alt: 'Beautiful architecture and landscapes in Agra',
-    instagramUrl: 'https://www.instagram.com/p/CahsKINPds_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+    image: '/images/photography/012.webp',
+    location: 'l1',
+    alt: 'e188',
+    instagramUrl: 'https://www.instagram.com/'
   },
   {
     id: '2',
-    image: '/images/photography/02.webp',
-    location: 'Bandarban, Bangladesh',
-    alt: 'Scenic views from Bandarban',
-    instagramUrl: 'https://www.instagram.com/p/DI_peJKzpHl/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+    image: '/images/photography/022.webp',
+    location: 'l2',
+    alt: 'e288',
+    instagramUrl: 'https://www.instagram.com/'
   },
   {
     id: '3',
-    image: '/images/photography/03.webp',
-    location: 'Shimla, India',
-    alt: 'Mountain landscapes in Shimla',
-    instagramUrl: 'https://www.instagram.com/p/CoNIqgJPJOs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+    image: '/images/photography/032.webp',
+    location: 'l3',
+    alt: 'e388',
+    instagramUrl: 'https://www.instagram.com/'
   },
   {
     id: '4',
-    image: '/images/photography/04.webp',
-    location: 'Goa, India',
-    alt: 'Urban and natural scenes from Goa',
-    instagramUrl: 'https://www.instagram.com/p/CqiDphDvwJr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+    image: '/images/photography/042.webp',
+    location: 'l4',
+    alt: 'e488',
+    instagramUrl: 'https://www.instagram.com/'
   },
   {
     id: '5',
-    image: '/images/photography/05.webp',
-    location: 'Rishikesh, India',
-    alt: 'Spiritual and natural beauty of Rishikesh',
-    instagramUrl: 'https://www.instagram.com/p/Co9lw_CvJyr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+    image: '/images/photography/052.webp',
+    location: 'l5',
+    alt: 'e588',
+    instagramUrl: 'https://www.instagram.com/'
   },
   {
     id: '6',
-    image: '/images/photography/06.webp',
-    location: 'Jaipur, India',
-    alt: 'Colorful architecture and culture of Jaipur',
-    instagramUrl: 'https://www.instagram.com/p/CqDGrJyPBXX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+    image: '/images/photography/062.webp',
+    location: 'l6',
+    alt: 'e688',
+    instagramUrl: 'https://www.instagram.com/'
   }
 ];

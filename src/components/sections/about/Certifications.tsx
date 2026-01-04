@@ -20,73 +20,73 @@ interface Certification {
 const certifications: Certification[] = [
   {
     id: 1,
-    title: "Introduction to Cybersecurity Tools & Cyberattacks",
-    issuer: "IBM",
-    issueDate: "May 2024",
-    credentialId: "PPMPJNJSPEKV",
+    title: "r177",
+    issuer: "r1u77",
+    issueDate: "r1ia77",
+    credentialId: "r1c77",
     logo: "ibm",
-    credentialUrl: "https://www.coursera.org/account/accomplishments/records/PPMPJNJSPEKV"
+    credentialUrl: "https://www.coursera.org/"
   },
   {
     id: 2,
-    title: "Machine Learning Specialization",
-    issuer: "DeepLearning.AI",
-    issueDate: "May 2024",
-    credentialId: "836HFQZEE7JE",
+    title: "r277",
+    issuer: "r2i77",
+    issueDate: "r2ia77",
+    credentialId: "r2ic77",
     logo: "deeplearning",
-    credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/836HFQZEE7JE"
+    credentialUrl: "https://www.coursera.org/"
   },
   {
     id: 3,
-    title: "Foundations of Cybersecurity",
-    issuer: "Google",
-    issueDate: "Jan 2024",
-    credentialId: "BYEP42DJ5XY5",
+    title: "r377",
+    issuer: "r3i77",
+    issueDate: "r3ia77",
+    credentialId: "r3ic77",
     logo: "google",
     credentialUrl: "https://www.coursera.org/account/accomplishments/records/BYEP42DJ5XY5"
   },
   {
     id: 4,
-    title: "Building Web Applications in PHP",
-    issuer: "University of Michigan",
-    issueDate: "Dec 2022",
-    credentialId: "ET5CGA5CSKY4",
+    title: "r477",
+    issuer: "r4i77",
+    issueDate: "r4ia77",
+    credentialId: "r4ic77",
     logo: "michigan",
     credentialUrl: "https://www.coursera.org/account/accomplishments/records/ET5CGA5CSKY4"
   },
   {
     id: 5,
-    title: "Cryptography I",
-    issuer: "Stanford University",
-    issueDate: "Nov 2022",
-    credentialId: "D782Z66RLR3D",
+    title: "r577",
+    issuer: "r5i77",
+    issueDate: "r5ia77",
+    credentialId: "r5ic77",
     logo: "stanford",
     credentialUrl: "https://www.coursera.org/account/accomplishments/records/D782Z66RLR3D"
   },
   {
     id: 6,
-    title: "Crash Course on Python",
-    issuer: "Google",
-    issueDate: "May 2022",
-    credentialId: "5DXEVT8C4BHR",
+    title: "r677",
+    issuer: "r6i77",
+    issueDate: "r6ia77",
+    credentialId: "r6ic77",
     logo: "google",
     credentialUrl: "https://www.coursera.org/account/accomplishments/records/5DXEVT8C4BHR"
   },
   {
     id: 7,
-    title: "Cybersecurity and Its Ten Domains",
-    issuer: "Kennesaw State University",
-    issueDate: "May 2022",
-    credentialId: "JH92ELQKBMT5",
+    title: "r777",
+    issuer: "r7i77",
+    issueDate: "r7ia77",
+    credentialId: "r7ic77",
     logo: "kennesaw",
     credentialUrl: "https://www.coursera.org/account/accomplishments/records/JH92ELQKBMT5"
   },
   {
     id: 8,
-    title: "Learn C++ Programming -Beginner to Advance- Deep Dive in C++",
-    issuer: "Udemy",
-    issueDate: "Jan 2021",
-    credentialId: "UC-c8b41149-7111-48e8-be81-41b0a0d5fb90",
+    title: "r877",
+    issuer: "r8i77",
+    issueDate: "r8ia77",
+    credentialId: "r8ic77",
     logo: "udemy",
     credentialUrl: "https://www.udemy.com/certificate/UC-c8b41149-7111-48e8-be81-41b0a0d5fb90/"
   }
@@ -223,10 +223,10 @@ const Certifications = ({ isDark = false }: CertificationsProps) => {
             viewport={{ once: true }}
           >
             <span className="uppercase tracking-[0.2em] text-[11px] text-slate-500 dark:text-slate-400">
-              Professional Development
+              e77
             </span>
             <h2 className="mt-3 text-4xl md:text-5xl font-bold text-slate-900 dark:text-white">
-              Licenses & Certifications
+              f77
             </h2>
             
           </motion.div>

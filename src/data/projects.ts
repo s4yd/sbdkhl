@@ -52,12 +52,12 @@ import { GrStorage } from 'react-icons/gr';
 export const projects: Project[] = [
   {
   id: 'brevo-email-marketing-n8n',
-    title: 'Brevo Email Marketing (n8n)',
+    title: 'ai199',
     description:
-      'A sophisticated email automation system engineered with n8n to streamline sophisticated marketing workflows. By orchestrating data flow between Google Sheets, Webflow CMS, and Brevo\'s transactional API, this solution enables hyper-personalized communication at scale. It replaces manual list management with intelligent, event-driven triggers, ensuring the right message reaches the right user at the perfect moment.',
+      'aid199',
     longDescription:
       'Email marketing automation workflow with Google Sheets/Webflow CMS integration, Brevo email delivery, and engagement tracking.',
-    image: '/images/projects/Brevo Email Marketing (n8n).svg',
+    image: '/images/projects/Brevo Email Marketing (n8n.svg',
     tags: [
       { name: "n8n", icon: React.createElement(SiN8N, { className: "w-3.5 h-3.5" }) },
       { name: "Brevo", icon: React.createElement(SiBrevo, { className: "w-3.5 h-3.5" }) },
@@ -73,12 +73,12 @@ export const projects: Project[] = [
   },
   {
   id: 'content-idea-generator-n8n',
-    title: 'Content Idea Generator (n8n)',
+    title: 'ai299',
     description:
-      'A powerful AI-driven content orchestration engine built on n8n. This workflow seamlessly bridges Google Sheets and Trello, using OpenAI\'s generative capabilities to transform raw topics into fully fleshed-out content plans. By automating the ideation, drafting, and organization phases, it eliminates hours of manual administrative work, enabling creators and teams to scale their output exponentially.',
+      'aid299',
     longDescription:
       'Automated content creation workflow with Google Sheets integration, AI content generation, and Trello management.',
-    image: '/images/projects/Content Idea Generator (n8n).svg',
+    image: '/images/projects/Content Idea Generator (n8n.svg',
     tags: [
       { name: "n8n", icon: React.createElement(SiN8N, { className: "w-3.5 h-3.5" }) },
       { name: "OpenAI", icon: React.createElement(SiOpenai, { className: "w-3.5 h-3.5" }) },
@@ -94,12 +94,12 @@ export const projects: Project[] = [
   },
   {
     id: 'intelligent-product-order-n8n',
-    title: 'Intelligent Product Order (n8n)',
+    title: 'ai399',
     description:
-      'A comprehensive order fulfillment automation system engineered with n8n to bridge the gap between unstructured communication and structured data. By intelligently parsing incoming emails using OpenAI\'s GPT models, this workflow extracts critical order details, verifies product availability against a synchronized Google Sheets catalog, and autonomously orchestrates task creation in Monday.com. It transforms a chaotic inbox into a streamlined, error-free fulfillment pipeline, reducing manual data entry by over 90%.',
+      'aid399',
     longDescription:
       'Automated order processing workflow using n8n to sync catalogs, parse emails with OpenAI, and create tasks in Monday.com.',
-    image: '/images/projects/Intelligent Product Order (n8n).svg',
+    image: '/images/projects/Intelligent Product Order (n8n.svg',
     tags: [
       { name: "n8n", icon: React.createElement(SiN8N, { className: "w-3.5 h-3.5" }) },
       { name: "OpenAI", icon: React.createElement(SiOpenai, { className: "w-3.5 h-3.5" }) },
@@ -116,12 +116,12 @@ export const projects: Project[] = [
 
   {
   id: 'photobooth',
-    title: 'PhotoBooth',
+    title: 'ai499',
     description:
-      'A visually stunning, high-performance social photo-sharing platform engineered to deliver a premium user experience. Powered by Sanity.io content lake and React component ecosystem, this application features secure Google OAuth authentication, real-time social interactions, and a responsive masonry layout that adapts beautifully to any device.',
+      'aid499',
     longDescription:
       'Full-stack social photo app with Google login, drag-and-drop uploads, comments, likes, and pin-style masonry layout.',
-    image: '/images/projects/photobooth.svg',
+    image: '/images/projects/photoboot.svg',
     tags: [
       { name: "React", icon: React.createElement(SiReact, { className: "w-3.5 h-3.5" }) },
       { name: "Sanity CMS", icon: React.createElement(Database, { className: "w-3.5 h-3.5" }) },
@@ -137,12 +137,12 @@ export const projects: Project[] = [
   },
   {
   id: 'ab-pharmacy-expo',
-    title: 'AB Pharmacy Expo',
+    title: 'ai599',
     description:
-      'A production-ready cross-platform mobile application engineered with React Native and Expo to serve as a comprehensive digital companion for pharmacy trade shows. Featuring real-time event scheduling, an interactive exhibitor directory, detailed product catalogs, and offline-first functionalities, this app delivers a seamless native experience on both iOS and Android devices.',
+      'aid599',
     longDescription:
       'Cross-platform React Native Expo app for pharmacy trade shows with live scheduling, exhibitor directory, product catalog, offline capabilities, and instant search.',
-    image: '/images/projects/AB Pharmacy Expo.svg',
+    image: '/images/projects/AB Pharmacy Exp.svg',
     tags: [
       { name: "React Native", icon: React.createElement(SiReact, { className: "w-3.5 h-3.5" }) },
       { name: "Expo", icon: React.createElement(SiExpo, { className: "w-3.5 h-3.5" }) },
@@ -158,12 +158,12 @@ export const projects: Project[] = [
   },
   {
   id: 'cryptoverse',
-    title: 'CryptoVerse',
+    title: 'ai699',
     description:
-      'A comprehensive real-time cryptocurrency analysis dashboard engineered with the robust React ecosystem. Integrating Redux Toolkit Query for efficient data caching and Chart.js for data visualization, this application delivers instant global market metrics, detailed individual token analytics, and aggregated news feeds—all presented within a cohesive, professional interface designed with the Ant Design system.',
+      'aid699',
     longDescription:
       'Real-time crypto stats, interactive Chart.js visualizations, Redux Toolkit Query state management, Ant Design UI, and aggregated news intelligence.',
-    image: '/images/projects/CryptoVerse.svg',
+    image: '/images/projects/CryptoVers.svg',
     tags: [
       { name: "React", icon: React.createElement(SiReact, { className: "w-3.5 h-3.5" }) },
       { name: "Redux Toolkit", icon: React.createElement(Database, { className: "w-3.5 h-3.5" }) },
@@ -179,12 +179,12 @@ export const projects: Project[] = [
   },
   {
   id: 'portfolio-v2',
-    title: 'Portfolio v2',
+    title: 'ai799',
     description:
-      'A state-of-the-art personal portfolio website designed to deliver an immersive and interactive user experience. Built with the latest React 18 capabilities, strongly typed with TypeScript, and styled with utility-first Tailwind CSS, this project exemplifies modern frontend engineering. It features professional-grade animations powered by Framer Motion, full dark mode support, and a comprehensive showcase of multidisciplinary expertise across software engineering, AI, and QA.',
+      'aid799',
     longDescription:
       'Modern, highly interactive portfolio built with React 18, TypeScript, and Tailwind CSS. Features advanced Framer Motion animations, comprehensive case studies, a fully responsive design, and seamless dark mode integration.',
-    image: '/images/projects/Portfolio v2.svg',
+    image: '/images/projects/Portfolio v.svg',
     tags: [
       { name: "React 18", icon: React.createElement(SiReact, { className: "w-3.5 h-3.5" }) },
       { name: "TypeScript", icon: React.createElement(SiTypescript, { className: "w-3.5 h-3.5" }) },
@@ -200,12 +200,12 @@ export const projects: Project[] = [
   },
   {
   id: 'ab-pharmacy-orders',
-    title: 'AB Pharmacy Orders',
+    title: 'ai899',
     description:
-      'A streamlined web application designed to digitize and optimize pharmacy procurement workflows. Integrating a React-based frontend with a flexible Google Sheets-powered backend, this solution facilitates rapid order placement, intelligent status tracking, and automated WhatsApp confirmations, significantly reducing manual errors in inventory replenishment.',
+      'aid899',
     longDescription:
       'Pharmacy order management system with Google Sheets backend integration, WhatsApp order confirmation, and streamlined UI for quick order placement and status tracking.',
-    image: '/images/projects/AB Pharmacy Orders.svg',
+    image: '/images/projects/AB Pharmacy Order.svg',
     tags: [
       { name: "React", icon: React.createElement(SiReact, { className: "w-3.5 h-3.5" }) },
       { name: "Tailwind CSS", icon: React.createElement(SiTailwindcss, { className: "w-3.5 h-3.5" }) },
@@ -220,12 +220,12 @@ export const projects: Project[] = [
 
   {
   id: 'portfolio-v1',
-    title: 'Portfolio v1',
+    title: 'ai999',
     description:
-      'The inaugural version of my personal digital portfolio, designed to be a lightweight, high-performance showcase of technical skills and professional achievements. Engineered with semantic HTML5, modern CSS3, and the Bootstrap framework, this project prioritizes essential web vitals—speed, accessibility, and SEO-friendliness—providing a solid foundation for personal branding on the open web.',
+      'aid999',
     longDescription:
       'Lightweight, SEO-focused personal portfolio built with semantic HTML5, CSS3, and Bootstrap. Features a responsive grid layout, accessible design, and Netlify deployment for high performance.',
-    image: '/images/projects/Portfolio v1.svg',
+    image: '/images/projects/Portfolio v.svg',
     tags: [
       { name: "HTML5", icon: React.createElement(Code, { className: "w-3.5 h-3.5" }) },
       { name: "CSS3", icon: React.createElement(Palette, { className: "w-3.5 h-3.5" }) },
@@ -243,12 +243,12 @@ export const projects: Project[] = [
   // Dice Job Search (n8n) automation project
   {
   id: 'dice-job-search-n8n',
-    title: 'Dice Job Search (n8n)',
+    title: 'ai1099',
     description:
-      'A sophisticated low-code automation workflow engineered with n8n to revolutionize the job search process. This system autonomously monitors Dice.com for varied tech roles, applying complex filtering logic to curate high-quality opportunities. It seamlessly integrates with Google Sheets for application tracking and delivers instant multi-channel notifications, ensuring users never miss a critical opening.',
+      'aid1099',
     longDescription:
       'Automated job scraping workflow using n8n to fetch, filter, and alert on new Dice.com job listings via Telegram/Email.',
-    image: '/images/projects/Dice Job Search (n8n).svg',
+    image: '/images/projects/Dice Job Search (n8n.svg',
     tags: [
       { name: 'n8n', icon: React.createElement(SiN8N, { className: 'w-3.5 h-3.5' }) },
       { name: 'Dice.com', icon: React.createElement(Search, { className: 'w-3.5 h-3.5' }) },
@@ -265,12 +265,12 @@ export const projects: Project[] = [
 
   {
   id: 'kingsley-group',
-    title: 'Kingsley Group',
+    title: 'ai1199',
     description:
-      'A comprehensive corporate website redesign for a leading environmental engineering firm. This project focused on building a scalable, multi-regional digital platform featuring advanced content hubs for News and Resources, end-to-end SEO implementation, and high-performance architecture to support operations in Australia, Bangladesh, and China.',
+      'aid1199',
     longDescription:
       'Corporate WordPress redesign featuring custom post types for resources & news, granular SEO optimization, Cloudflare performance hardening, and a multi-regional content strategy.',
-    image: '/images/projects/Kingsley Group.svg',
+    image: '/images/projects/Kingsley Grou.svg',
     tags: [
       { name: "WordPress", icon: React.createElement(SiWordpress, { className: "w-3.5 h-3.5" }) },
       { name: "PHP", icon: React.createElement(SiPhp, { className: "w-3.5 h-3.5" }) },
@@ -288,12 +288,12 @@ export const projects: Project[] = [
   },
   {
   id: 'linkedin-job-search-n8n',
-    title: 'LinkedIn Job Search (n8n)',
+    title: 'ai1299',
     description:
-      'A sophisticated low-code automation workflow engineered with n8n to revolutionize the job search process. This system autonomously monitors LinkedIn for varied tech roles, applying complex filtering logic to curate high-quality opportunities. It seamlessly integrates with Google Sheets for application tracking and delivers instant multi-channel notifications, ensuring users never miss a critical opening.',
+      'aid1299',
     longDescription:
       'Automated job scraping workflow using n8n to fetch, filter, and alert on new LinkedIn job listings via Telegram/Email.',
-    image: '/images/projects/LinkedIn Job Search (n8n).svg',
+    image: '/images/projects/LinkedIn Job Search (n8n.svg',
     tags: [
       { name: "n8n", icon: React.createElement(SiN8N, { className: "w-3.5 h-3.5" }) },
       { name: "LinkedIn", icon: React.createElement(SiLinkedin, { className: "w-3.5 h-3.5" }) },
@@ -309,12 +309,12 @@ export const projects: Project[] = [
   },
   {
   id: 'kfc-clone',
-    title: 'KFC Clone',
+    title: 'ai1399',
     description:
-      'A high-fidelity, single-page food ordering application designed to replicate the premium digital experience of KFC. Built with the modern Vue 3 ecosystem and utility-first Tailwind CSS, this project delivers a lightning-fast, interactive, and responsive user interface. It features advanced capabilities such as real-time multilingual support, dynamic cart management, and location-based services powered by Leaflet.js, all optimized for performance and scalability.',
+      'aid1399',
     longDescription:
       'Advanced Vue 3 food ordering SPA featuring internationalization (i18n), dynamic cart management, location-based services with Leaflet.js, and a robust component architecture with data persistence.',
-    image: '/images/projects/KFC Clone.svg',
+    image: '/images/projects/KFC Clon.svg',
     tags: [
       { name: "Vue 3", icon: React.createElement(FaVuejs, { className: "w-3.5 h-3.5" }) },
       { name: "TailwindCSS", icon: React.createElement(RiTailwindCssFill, { className: "w-3.5 h-3.5" }) },
@@ -331,12 +331,12 @@ export const projects: Project[] = [
   },
   {
   id: 'easycooking',
-    title: 'EasyCooking',
+    title: 'ai1499',
     description:
-      'A comprehensive and immersive cooking tutorial platform dedicated to exploring culinary traditions from around the globe. Featuring a curated collection of authentic recipes from Bengali, Chinese, and Indian cuisines, the platform provides detailed, step-by-step guidance for home cooks. Built entirely with semantic HTML5 and modern CSS3, it offers lightning-fast performance, zero-dependency loading, and a seamless cross-platform experience optimized for both desktop and mobile viewing.',
+      'aid1499',
     longDescription:
       'Immersive multi-cuisine cooking tutorial platform featuring authentic Bengali, Chinese, and Indian recipes. Built with semantic HTML5 and CSS3 for distraction-free reading, lightning-fast zero-dependency performance, and a fully responsive cross-device experience.',
-    image: '/images/projects/EasyCooking.svg',
+    image: '/images/projects/EasyCookin.svg',
     tags: [
       { name: "HTML5", icon: React.createElement(SiHtml5, { className: "w-3.5 h-3.5" }) },
       { name: "CSS3", icon: React.createElement(SiCss3, { className: "w-3.5 h-3.5" }) },
@@ -351,12 +351,12 @@ export const projects: Project[] = [
   },
   {
   id: 'food-ordering-system',
-    title: 'Food Ordering System',
+    title: 'ai1599',
     description:
-      'A comprehensive console-based C++ application designed to simulate a real-world food ordering experience. It features a robust menu selection system, automated bill calculation with change determination, and a secure admin panel for managing order lifecycles. The system allows for token-based order tracking, intelligent time estimation for food preparation, and reliable file-handling mechanisms ensuring data persistence across sessions.',
+      'aid1599',
     longDescription:
       'Robust C++ ordering system featuring token-based tracking, smart time estimation, automated billing, and secure password-protected admin panel with persistent file storage.',
-    image: '/images/projects/Food Ordering System.svg',
+    image: '/images/projects/Food Ordering Syste.svg',
     tags: [
       { name: "C++", icon: React.createElement(SiCplusplus, { className: "w-3.5 h-3.5" }) },
       { name: "OOP", icon: React.createElement(Code, { className: "w-3.5 h-3.5" }) },
@@ -373,13 +373,13 @@ export const projects: Project[] = [
 ];
 
 export const categories = [
-  { key: 'development', label: 'Web', icon: Code2 },
-  { key: 'app', label: 'App', icon: Smartphone },
-  { key: 'automation', label: 'Automation', icon: SiN8N },
+  { key: 'ga99', label: 'ga99', icon: Code2 },
+  { key: 'gb99', label: 'gb99', icon: Smartphone },
+  { key: 'gc99', label: 'gc99', icon: SiN8N },
 ];
 
 export const categoryMeta: Record<string, { label: string; Icon: React.ElementType }> = {
-  development: { label: 'Web', Icon: Code2 },
-  app: { label: 'App', Icon: Smartphone },
-  automation: { label: 'Automation', Icon: SiN8N },
+  development: { label: 'ga99', Icon: Code2 },
+  app: { label: 'gb99', Icon: Smartphone },
+  g99: { label: 'gc99c', Icon: SiN8N },
 };

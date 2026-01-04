@@ -23,69 +23,69 @@ const Experience = ({ isDark = false }: ExperienceProps) => {
   const experiences: Experience[] = [
     {
       id: 1,
-      company: "Social Engagement Group",
-      position: "Research & Development Lead",
-      duration: "JUL 2025 - PRESENT",
-      location: "Florida, United States",
-      type: "Remote",
+      company: "u1c77",
+      position: "u1p77",
+      duration: "u1d77",
+      location: "u1l77",
+      type: "u1t77",
       current: true,
-      companyUrl: "https://www.linkedin.com/company/social-engagement-group/",
+      companyUrl: "https://www.linkedin.com/",
       description: [
-        "Lead research on emerging tools, technologies, and best practices to optimize workflows and enhance client outcomes.",
-        "Design, develop, and deploy innovative automation solutions, including n8n workflows and AI-driven systems, to improve operational efficiency.",
-        "Create and maintain detailed technical documentation in Confluence, driving knowledge sharing and team effectiveness.",
-        "Collaborate seamlessly with cross-functional teams to streamline processes and contribute to marketing and content initiatives."
+        "u1da77",
+        "u1db77",
+        "u1dc77",
+        "u1dd77"
       ],
       technologies: ["TypeScript","Next.js","Sanity CMS","Contentful CMS","Tailwind CSS","Figma","Turborepo","Vercel AI SDK","Agile","Teamwork","Research","Problem-solving"]
     },
     {
       id: 2,
-      company: "AfterQuery Experts",
-      position: "AI Model Trainer",
-      duration: "APR 2025 - JUN 2025",
-      location: "California, United States",
-      type: "Remote",
+      company: "u277",
+      position: "u2p77",
+      duration: "u2d77",
+      location: "u2l77",
+      type: "u2t77",
       current: true,
-      companyUrl: "https://www.linkedin.com/company/afterquery-experts/",
+      companyUrl: "https://www.linkedin.com/",
       description: [
-        "Develop and solve advanced competitive programming challenges to train and evaluate AI model coding capabilities.",
-        "Analyze AI model performance, providing actionable feedback to refine reasoning and problem-solving.",
-        "Implement optimized, efficient code solutions to benchmark and elevate AI model accuracy and efficiency.",
-        "Document problem solutions and evaluation insights comprehensively to support collaborative AI research and innovation."
+        "u2da",
+        "u2db",
+        "Iu2dc",
+        "u2dd"
       ],
       technologies: ["Python","Competitive Programming","Data Structures","Algorithms","AI Training","Machine Learning","Financial Analysis","Problem-solving"]
     },
     {
       id: 3,
-      company: "Kounsel",
-      position: "SQA Engineer",
-      duration: "JUN 2024 - MAR 2025",
-      location: "California, United States",
-      type: "Remote",
+      company: "u377",
+      position: "u3p77",
+      duration: "u3d77",
+      location: "u3l77",
+      type: "u3t77",
       current: false,
-      companyUrl: "https://www.linkedin.com/company/kounsel",
+      companyUrl: "https://www.linkedin.com/",
       description: [
-        "Owned QA processes and developed automation frameworks for both mobile and web platforms to ensure high reliability standards.",
-        "Created comprehensive test plans, wrote detailed test cases, and maintained technical documentation to support quality assurance efforts.",
-        "Managed database updates in MongoDB, handling new client information and approvals to streamline onboarding workflows.",
-        "Collaborated with cross-functional teams using Jira and Bitbucket to track bugs, maintain CI pipelines, and ensure rapid issue resolution and code quality control."
+        "u3da77",
+        "u3db77",
+        "u3dc77",
+        "u3dd77"
       ],
       technologies: ["Selenium","Jira","Bitbucket","Kotlin","MongoDB","Docker","Test Automation","Quality Assurance"]
     },
     {
       id: 4,
-      company: "Kingsley Engineering Service Co.",
-      position: "Software Engineer",
-      duration: "AUG 2023 - JUN 2024",
-      location: "Dhaka, Bangladesh",
-      type: "On-site",
+      company: "u477",
+      position: "u4p77",
+      duration: "u4d77",
+      location: "u4l77",
+      type: "u4t77",
       current: false,
-      companyUrl: "https://www.linkedin.com/company/kingsley-engineering-service-company/",
+      companyUrl: "https://www.linkedin.com/",
       description: [
-        "Redesigned the corporate website to enhance user experience and SEO, resulting in approximately 45% increase in organic traffic.",
-        "Developed micro-sites, landing pages, and blogs to improve conversion rates and support marketing goals.",
-        "Created compelling social media posters and business profiles using Illustrator, Notebook, and other design tools to boost brand presence.",
-        "Delivered clean, modern UI with intuitive navigation, while executing SEO strategies to increase search visibility and drive demand generation."
+        "u4da77",
+        "u4db77",
+        "u4dc77",
+        "u4dd77"
       ],
       technologies: ["Front-End Development","Web Design","WordPress","SEO","Digital Marketing","UI/UX Design"]
     }
@@ -109,10 +109,10 @@ const Experience = ({ isDark = false }: ExperienceProps) => {
             viewport={{ once: true }}
           >
             <span className="uppercase tracking-[0.2em] text-[10px] sm:text-[11px] text-slate-500 dark:text-slate-400">
-              Professional Journey
+              l77
             </span>
             <h2 className="mt-2 sm:mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white">
-              Work Experience
+              u77
             </h2>
           </motion.div>
         </motion.div>

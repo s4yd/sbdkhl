@@ -5,11 +5,11 @@ import { LuUsers, LuBookOpen, LuMapPin, LuExternalLink } from "react-icons/lu";
 interface Publication {
   id: number;
   title: string;
-  authors: string[];
-  conference: React.ReactNode;
+  va: string[];
+  vc: React.ReactNode;
   date: string;
-  location: string;
-  doi: string;
+  vl: string;
+  vd: string;
   status: string;
 }
 
@@ -28,52 +28,52 @@ interface ResearchProps {
 const publications: Publication[] = [
   {
     id: 1,
-    title: "Skin Cancer Detection with Edge Devices Using YOLOv7 Deep CNN",
-    authors: ["Dhruba Datta", "Harsh Prakash", "Priya Singh"],
-    conference: (
+    title: "v77",
+    va: ["va77"],
+    vc: (
       <>
-        4<sup>th</sup> International Conference on Data Analytics & Management,
-        2023
+        vcb77<sup>vcc77</sup> vc77
+        vca77
       </>
     ),
-    date: "November 2023",
-    location: "London Metropolitan University, London, UK",
-    doi: "10.1007/978-981-99-6550-2_5",
-    status: "Published",
+    date: "vd77",
+    vl: "vl77",
+    vd: "vd77",
+    status: "vs77",
   },
 ];
 
 const achievements: Achievement[] = [
   {
     id: 1,
-    title: "ICCR Government Scholarship",
+    title: "oa77",
     description:
-      "Received the prestigious Indian Government Scholarship entailing full funded education and monthly stipend.",
+      "oaa77",
     category: "scholarship",
     icon: "graduation-cap",
   },
   {
     id: 2,
-    title: "LeetCode Achievement",
+    title: "ob77",
     description:
-      "Solved 500+ problems with 3K+ reputation and 250K+ views, capturing coding enthusiasts worldwide.",
+      "oba77",
     category: "technical",
     icon: "code",
   },
   {
     id: 3,
-    title: "SEO-Optimized Portfolio Website",
+    title: "oc77",
     description:
-      "Built a personal portfolio website that ranked on the first page of Google search results.",
+      "oca77",
     category: "technical",
     icon: "rocket",
   },
 
   {
     id: 4,
-    title: "Science Fair Achievements",
+    title: "od77",
     description:
-      "Secured 1st place out of 250+ teams (DRMC National Science Festival 2016) and 3rd place out of 120 teams (SGHS Inter-School Science Festival 2016).",
+      "oda77",
     category: "competition",
     icon: "trophy",
   },
@@ -153,10 +153,10 @@ const ResearchAndAchievements = ({ isDark = false }: ResearchProps) => {
             viewport={{ once: true }}
           >
             <span className="uppercase tracking-[0.2em] text-[10px] sm:text-[11px] text-slate-500 dark:text-slate-400">
-              Research & Recognition
+              w77
             </span>
             <h2 className="mt-2 sm:mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white">
-              Publications & Achievements
+              p77
             </h2>
           </motion.div>
         </motion.div>
@@ -180,7 +180,7 @@ const ResearchAndAchievements = ({ isDark = false }: ResearchProps) => {
                 isDark ? "text-white" : "text-gray-900"
               }`}
             >
-              Publications
+              P77
             </h3>
 
             {/* Mobile Timeline Line for Publications - Visible only on mobile */}
@@ -228,7 +228,7 @@ const ResearchAndAchievements = ({ isDark = false }: ResearchProps) => {
                   >
                     <h4 className="text-base sm:text-base lg:text-lg font-bold mb-3 sm:mb-4 leading-tight text-blue-600 dark:text-blue-400 group-hover:underline">
                       <a
-                        href={`https://link.springer.com/chapter/${pub.doi}`}
+                        href={`https://link.springer.com/chapter/${pub.vd}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="focus-override"
@@ -244,16 +244,16 @@ const ResearchAndAchievements = ({ isDark = false }: ResearchProps) => {
                       >
                         <LuUsers className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-gray-400 mt-px sm:mt-0.5 flex-shrink-0" />
                         <div>
-                          <span className="font-medium mr-1.5">Authors:</span>
-                          {pub.authors.map((author, i) => (
+                          <span className="font-medium mr-1.5">va:</span>
+                          {pub.va.map((author, i) => (
                             <span
                               key={i}
                               className={
-                                author === "Dhruba Datta" ? "font-bold" : ""
+                                author === "SBDKHL" ? "font-bold" : ""
                               }
                             >
                               {author}
-                              {i < pub.authors.length - 1 ? ", " : ""}
+                              {i < pub.va.length - 1 ? ", " : ""}
                             </span>
                           ))}
                         </div>
@@ -266,9 +266,9 @@ const ResearchAndAchievements = ({ isDark = false }: ResearchProps) => {
                         <LuBookOpen className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-gray-400 mt-px sm:mt-0.5 flex-shrink-0" />
                         <div>
                           <span className="font-medium mr-1.5">
-                            Conference:
+                            vc:
                           </span>
-                          <span>{pub.conference}</span>
+                          <span>{pub.vc}</span>
                         </div>
                       </div>
                       <div
@@ -278,8 +278,8 @@ const ResearchAndAchievements = ({ isDark = false }: ResearchProps) => {
                       >
                         <LuMapPin className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-gray-400 mt-px sm:mt-0.5 flex-shrink-0" />
                         <div>
-                          <span className="font-medium mr-1.5">Location:</span>{" "}
-                          <span>{pub.location}</span>
+                          <span className="font-medium mr-1.5">vl:</span>{" "}
+                          <span>{pub.vl}</span>
                         </div>
                       </div>
                       <div
@@ -290,17 +290,17 @@ const ResearchAndAchievements = ({ isDark = false }: ResearchProps) => {
                         <LuExternalLink className="w-3 sm:w-3.5 h-3 sm:h-3.5 text-blue-400 mt-px sm:mt-0.5 flex-shrink-0" />
                         <div>
                           <span className="font-medium text-blue-600 dark:text-blue-400 mr-1.5">
-                            DOI:
+                            vd:
                           </span>
                           <a
-                            href={`https://link.springer.com/chapter/${pub.doi}`}
+                            href={`https://link.springer.com/chapter/${pub.vd}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className={`font-mono hover:underline transition-colors duration-200 focus-override ${
                               isDark ? "text-blue-300" : "text-blue-800"
                             }`}
                           >
-                            {pub.doi}
+                            {pub.vd}
                           </a>
                         </div>
                       </div>
@@ -339,8 +339,8 @@ const ResearchAndAchievements = ({ isDark = false }: ResearchProps) => {
                   isDark ? "text-gray-300" : "text-gray-700"
                 }`}
               >
-                "Bridging theoretical research with practical applications in
-                Artificial Intelligence"
+                "q77
+                qa77"
               </p>
             </div>
             <div className="mt-6 sm:mt-8 lg:mt-12 hidden sm:block">
@@ -349,28 +349,28 @@ const ResearchAndAchievements = ({ isDark = false }: ResearchProps) => {
                   isDark ? "text-white" : "text-gray-900"
                 }`}
               >
-                Research Interests
+                y77
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 sm:gap-x-4 lg:gap-x-6 gap-y-1.5 sm:gap-y-2 lg:gap-y-3">
                 {[
                   {
                     id: 1,
-                    area: "Artificial Intelligence",
+                    area: "ya77",
                     color: "from-purple-500 to-pink-500",
                   },
                   {
                     id: 2,
-                    area: "Machine Learning",
+                    area: "yb77",
                     color: "from-green-500 to-teal-500",
                   },
                   {
                     id: 3,
-                    area: "Computer Vision",
+                    area: "yc77",
                     color: "from-blue-500 to-cyan-500",
                   },
                   {
                     id: 4,
-                    area: "Natural Language Processing",
+                    area: "yd77",
                     color: "from-orange-500 to-red-500",
                   },
                 ].map((interest) => (
@@ -401,7 +401,7 @@ const ResearchAndAchievements = ({ isDark = false }: ResearchProps) => {
                 isDark ? "text-white" : "text-gray-900"
               }`}
             >
-              Achievements
+              o77
             </h3>
 
             {/* Mobile Timeline Line for Achievements - Visible only on mobile */}

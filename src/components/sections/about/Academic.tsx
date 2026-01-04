@@ -20,30 +20,30 @@ const Academic = ({ isDark = false }: AcademicProps) => {
   const education: Education[] = [
     {
       id: 1,
-      degree: "Bachelor of Technology (BTech)",
-      institution: "Delhi Technological University",
-      duration: "AUG 2019 - JUL 2023",
-      location: "New Delhi, India",
-      grade: "CGPA: 8.22/10.00",
-      field: "Department of Software Engineering"
+      degree: "ad77",
+      institution: "ai77",
+      duration: "add77",
+      location: "al77",
+      grade: "ag77",
+      field: "af77"
     },
     {
       id: 2,
-      degree: "Higher Secondary Certificate (HSC)",
-      institution: "Dhaka College",
-      duration: "JUL 2016 - AUG 2018",
-      location: "Dhaka, Bangladesh",
-      grade: "GPA: 5.00/5.00",
-      field: "Field of Study: Science"
+      degree: "bd77",
+      institution: "bi77",
+      duration: "bdd77",
+      location: "bl77",
+      grade: "bg77",
+      field: "bf77"
     },
     {
       id: 3,
-      degree: "Secondary School Certificate (SSC)",
-      institution: "St. Gregory's High School",
-      duration: "JAN 2006 - JUN 2016",
-      location: "Dhaka, Bangladesh",
-      grade: "GPA: 5.00/5.00",
-      field: "Field of Study: Science"
+      degree: "cd77",
+      institution: "ci77",
+      duration: "cdd77",
+      location: "cl77",
+      grade: "cg77",
+      field: "cf77"
     }
   ];
 
@@ -69,10 +69,10 @@ const Academic = ({ isDark = false }: AcademicProps) => {
             viewport={{ once: true }}
           >
             <span className="uppercase tracking-[0.2em] text-[10px] sm:text-[11px] text-slate-500 dark:text-slate-400">
-              Education
+              K77
             </span>
             <h2 className="mt-2 sm:mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white">
-              Academic Background
+              h77
             </h2>
             
           </motion.div>
@@ -243,7 +243,7 @@ const Academic = ({ isDark = false }: AcademicProps) => {
                           <div className={`text-xs font-medium ${
                             isDark ? 'text-gray-400' : 'text-gray-600'
                           }`}>
-                            {edu.grade.includes('CGPA') ? 'CGPA' : 'GPA'}
+                            {edu.grade.includes('CGPA') ? 'CGPA' : 'z77'}
                           </div>
                           {/* Row 2 - Score */}
                           <div className={`text-lg font-bold ${

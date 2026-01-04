@@ -7,7 +7,7 @@ import { SitemapStream, streamToPromise } from "sitemap";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const BASE_URL = "https://dhruba-datta.netlify.app";
+const BASE_URL = "https://sbdkhl.com";
 const projectsDataPath = path.join(__dirname, "../src/data/projects.ts");
 
 // Extract IDs from projects.ts using regex

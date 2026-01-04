@@ -23,14 +23,14 @@ const Hero = () => {
   const prefersReducedMotion = useReducedMotion();
 
   const codeLines = [
-    "// Software Engineer",
-    "const developer = {",
-    "    name: 'Dhruba Datta',",
-    "    skills: ['n8n', 'C++', 'React', 'Photography'],",
-    "    focuses: ['Machine Learning'],",
-    "    learning: 'Always',",
-    "    available for coffee: true",
-    "};",
+    "Decoration & Event Management",
+    "Located in: Khulna",
+    "    name: Sundarban Decorator",
+    "    T1: E1",
+    "    T2: E2",
+    "    T3: E3",
+    "    T4: E4",
+    "",
   ];
 
   useEffect(() => {
@@ -48,27 +48,27 @@ const Hero = () => {
   const socialLinks = [
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/dhruba-datta/",
+      url: "https://www.linkedin.com/h",
       icon: <FaLinkedinIn className="w-4 sm:w-5 h-4 sm:h-5" />,
     },
     {
       name: "GitHub",
-      url: "https://github.com/dhruba-datta",
+      url: "https://github.com/h",
       icon: <FaGithub className="w-4 sm:w-5 h-4 sm:h-5" />,
     },
     {
       name: "Instagram",
-      url: "https://www.instagram.com/dhrubz_/",
+      url: "https://www.instagram.com/h",
       icon: <FaInstagram className="w-4 sm:w-5 h-4 sm:h-5" />,
     },
     {
       name: "Google Scholar",
-      url: "https://scholar.google.co.uk/citations?hl=en&user=RGxdIVkAAAAJ&view_op=list_works&authuser=1&gmla=AH70aAURqNk3ktsHQOlfZFUuNTBsHi7ZPnDjzbSkBWhg2ulKof0-hdur7ndSkkQ72sJwZ2ImrmCa9MtZLRPfjYoH",
+      url: "https://scholar.google.co.uk/h",
       icon: <FaGoogleScholar className="w-4 sm:w-5 h-4 sm:h-5" />,
     },
     {
       name: "Telegram",
-      url: "https://t.me/dhruba_datta_anjan",
+      url: "https://t.me/h",
       icon: <FaTelegramPlane className="w-4 sm:w-5 h-4 sm:h-5" />,
     },
   ];
@@ -164,7 +164,7 @@ const Hero = () => {
                   {/* Mobile main image */}
                   <motion.img
                     src="/images/Headshot.png"
-                    alt="Dhruba Datta"
+                    alt="SBDKHL"
                     className="relative z-10 w-28 h-28 sm:w-32 sm:h-32 rounded-full object-cover shadow-2xl transition-all duration-300"
                     decoding="async"
                     animate={{
@@ -240,7 +240,7 @@ const Hero = () => {
                 transition={{ delay: 0.3 }}
                 className="text-sm sm:text-base lg:text-lg text-blue-600 dark:text-blue-400 font-medium mb-1"
               >
-                Hello! I'm
+                Welcome to
               </motion.p>
               <motion.h1
                 initial={{ opacity: 0, y: 20 }}
@@ -248,8 +248,8 @@ const Hero = () => {
                 transition={{ delay: 0.4 }}
                 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 dark:text-white leading-tight m-0 p-0 -ml-1"
               >
-                Dhruba{" "}
-                <span className="text-blue-600 dark:text-blue-400">Datta</span>
+                Sundarban{" "}
+                <span className="text-blue-600 dark:text-blue-400">Decorator</span>
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -257,7 +257,7 @@ const Hero = () => {
                 transition={{ delay: 0.5 }}
                 className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 font-medium"
               >
-                Researcher & Software Engineer
+                 
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}
@@ -265,9 +265,7 @@ const Hero = () => {
                 transition={{ delay: 0.6 }}
                 className="text-sm sm:text-base lg:text-lg text-gray-500 dark:text-gray-400 max-w-lg"
               >
-                Tackling complex challenges with innovative tech and a passion
-                for automation. Beyond building solutions, love to explore the
-                world and capture memories.
+                 
               </motion.p>
             </div>
 
@@ -442,7 +440,7 @@ const Hero = () => {
                   {/* Main image */}
                   <motion.img
                     src="/images/Headshot.png"
-                    alt="Dhruba Datta"
+                    alt="SBDKHL"
                     className="relative z-10 w-40 h-40 rounded-full object-cover shadow-2xl transition-all duration-300"
                     decoding="async"
                     animate={{
@@ -594,7 +592,7 @@ const Hero = () => {
                   <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                   <div className="w-3 h-3 rounded-full bg-green-500"></div>
                   <span className="ml-4 text-sm text-gray-600 dark:text-gray-300 font-medium">
-                    developer.js
+                    Sundarban Decorator
                   </span>
                 </div>
 

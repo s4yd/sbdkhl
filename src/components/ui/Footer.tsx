@@ -4,11 +4,11 @@ import { FaGoogleScholar } from 'react-icons/fa6';
 import { SiGmail } from 'react-icons/si';
 
 const socialLinks = [
-  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/dhruba-datta/', icon: <FaLinkedinIn className="w-5 h-5" /> },
-  { name: 'GitHub', href: 'https://github.com/dhruba-datta', icon: <FaGithub className="w-5 h-5" /> },
-  { name: 'Gmail', href: 'mailto:dhrubadattaanjan@gmail.com', icon: <SiGmail className="w-5 h-5" /> },
-  { name: 'Google Scholar', href: 'https://scholar.google.co.uk/citations?user=RGxdIVkAAAAJ', icon: <FaGoogleScholar className="w-5 h-5" /> },
-  { name: 'Instagram', href: 'https://www.instagram.com/dhrubz_/', icon: <FaInstagram className="w-5 h-5" /> },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/', icon: <FaLinkedinIn className="w-5 h-5" /> },
+  { name: 'GitHub', href: 'https://github.com/', icon: <FaGithub className="w-5 h-5" /> },
+  { name: 'Gmail', href: 'mailto:@gmail.com', icon: <SiGmail className="w-5 h-5" /> },
+  { name: 'Google Scholar', href: 'https://scholar.google.co.uk', icon: <FaGoogleScholar className="w-5 h-5" /> },
+  { name: 'Instagram', href: 'https://www.instagram.com/', icon: <FaInstagram className="w-5 h-5" /> },
 ];
 
 const Footer = () => {
@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-16 flex flex-col md:flex-row md:items-center md:justify-between gap-6 md:gap-10">
         {/* Left: Copyright */}
         <div className="flex flex-col items-center md:items-start gap-1.5 md:gap-2">
-          <span className="text-sm md:text-base font-semibold text-gray-900 dark:text-white">Dhruba Datta</span>
+          <span className="text-sm md:text-base font-semibold text-gray-900 dark:text-white">SBDKHL</span>
           <p className="text-[11px] md:text-xs text-gray-500 dark:text-gray-400">&copy; {__LAST_UPDATE_YEAR__} | All rights reserved</p>
         </div>
 

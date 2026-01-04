@@ -55,10 +55,10 @@ const Projects = ({ initialCategory }: ProjectsProps) => {
         {/* Header */}
         <div className="flex flex-col items-center mb-6 sm:mb-8 lg:mb-10">
           <span className="uppercase tracking-[0.2em] text-[10px] sm:text-[11px] text-slate-500 dark:text-slate-400">
-            Projects
+            c99
           </span>
           <h2 className="mt-2 sm:mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white text-center">
-            Featured Work
+            a99
           </h2>
         </div>
 

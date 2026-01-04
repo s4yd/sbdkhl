@@ -174,9 +174,9 @@ const TechStack = ({ isDark }: TechStackProps) => {
           {/* Card 1 (Academic) — identical style */}
           <FeatureCard
             to="/about"
-            badge="For Academics"
-            title=" Academic Excellence"
-            description="Scholarships, publications and research interests view my academic profile."
+            badge="B22"
+            title=" SBDKHL*22"
+            description="D22"
             icon={<AcademicIcon />}
             cta="View Profile"
           />
@@ -185,7 +185,7 @@ const TechStack = ({ isDark }: TechStackProps) => {
           <div className={`lg:col-span-2 ${cardBase} p-4 sm:p-5 lg:p-8`}>
             <div className="mb-4 sm:mb-5 lg:mb-8">
               <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1">
-                My <span className="bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent">Toolbox</span>
+                C1 <span className="bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent">T1</span>
               </h3>
             </div>
             <div className="space-y-2 sm:space-y-3 lg:space-y-4">
@@ -206,7 +206,7 @@ const TechStack = ({ isDark }: TechStackProps) => {
             {/* Mobile: 3 in first row, 2 in second row. Desktop: original grid. */}
             <div className="hidden sm:grid grid-cols-3 md:grid-cols-5 lg:grid-cols-5 gap-3 sm:gap-4 mb-4 sm:mb-5 lg:mb-6">
               {/* Publications */}
-              <a href="https://scholar.google.co.uk/citations?hl=en&user=RGxdIVkAAAAJ&view_op=list_works&authuser=1&gmla=AH70aAURqNk3ktsHQOlfZFUuNTBsHi7ZPnDjzbSkBWhg2ulKof0-hdur7ndSkkQ72sJwZ2ImrmCa9MtZLRPfjYoH" target="_blank" rel="noopener noreferrer" className="block group focus-override">
+              <a href="https://scholar.google.co.uk/k" target="_blank" rel="noopener noreferrer" className="block group focus-override">
                 <div className={`p-3 sm:p-4 lg:p-5 rounded-xl border ${borderSoft} ${statBg} transition-all hover:shadow-lg hover:-translate-y-0.5 flex flex-col cursor-pointer h-24 sm:h-28 lg:h-32 min-h-[96px] sm:min-h-[112px]`}>
                   <div className="flex-1">
                     <div className="text-xl sm:text-2xl lg:text-3xl font-extrabold leading-none">
@@ -239,7 +239,7 @@ const TechStack = ({ isDark }: TechStackProps) => {
                 </div>
               </Link>
               {/* LeetCode */}
-              <a href="https://leetcode.com/u/dhruba-datta/" target="_blank" rel="noopener noreferrer" className="block group focus-override">
+              <a href="https://leetcode.com/u/" target="_blank" rel="noopener noreferrer" className="block group focus-override">
                 <div className={`p-3 sm:p-4 lg:p-5 rounded-xl border ${borderSoft} ${statBg} transition-all hover:shadow-lg hover:-translate-y-0.5 flex flex-col cursor-pointer h-24 sm:h-28 lg:h-32 min-h-[96px] sm:min-h-[112px]`}>
                   <div className="flex-1">
                     <div className="text-xl sm:text-2xl lg:text-3xl font-extrabold leading-none">
@@ -250,7 +250,7 @@ const TechStack = ({ isDark }: TechStackProps) => {
                 </div>
               </a>
               {/* Countries */}
-              <a href="https://www.instagram.com/dhrubz_/" target="_blank" rel="noopener noreferrer" className="hidden sm:block group focus-override">
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="hidden sm:block group focus-override">
                 <div className={`p-3 sm:p-4 lg:p-5 rounded-xl border ${borderSoft} ${statBg} transition-all hover:shadow-lg hover:-translate-y-0.5 flex flex-col cursor-pointer h-24 sm:h-28 lg:h-32 min-h-[96px] sm:min-h-[112px]`}>
                   <div className="flex-1">
                     <div className="text-xl sm:text-2xl lg:text-3xl font-extrabold leading-none">
@@ -302,9 +302,9 @@ const TechStack = ({ isDark }: TechStackProps) => {
           {/* Card 4 (Recruiter) — identical style */}
           <FeatureCard
             to="/projects"
-            badge="For Recruiters"
-            title=" Project Showcase"
-            description="Explore shipped work, case studies, and live demos tailored for hiring."
+            badge="B23"
+            title=" T23"
+            description="D23"
             icon={<BriefcaseIcon />}
             cta="View Recent Work"
           />
